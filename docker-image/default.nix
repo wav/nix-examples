@@ -36,7 +36,7 @@ let
 
 in
 # docker import $(readlink -n result) docker_image:0.0.1
-  # docker run flow:0.0.1 /bin/docker_image
+  # docker run docker_image:0.0.1 /bin/docker_image
 dockerTools.exportImage {
   fromImage = image;
   fromImageName = null;
