@@ -7,7 +7,7 @@ let
     pname = "docker_image";
     inherit version;
     src = ./.;
-    vendorHash = "sha256-lC0iHVbLAbkkE3P9Kj7iy4m0ze9xQn7ffh7NE9Z/cs8=";
+    vendorHash = null;
   };
 
   docker_image_app = stdenv.mkDerivation rec {
